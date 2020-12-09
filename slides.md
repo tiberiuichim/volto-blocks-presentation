@@ -27,6 +27,9 @@ You can already start using them today.
 
 # The power of Volto blocks
 
+<!-- Volto blocks are a major selling point for Volto. Not only are they
+powerful, but they're also easy to develop. -->
+
 ## volto-plotlycharts
 
 ![plotly](./static/plotlycharts.png)
@@ -330,7 +333,10 @@ Functional programming: composing functions
 const add = (x, y) => x + y;
 
 const addOne = (x) => add(x, 1);
+```
+---
 
+```
 const Footer = (props) => <div {...props}>footer stuff here<div>
 
 const RedFooter = (props) => <Footer {...props} style={{background: 'red'}} />
@@ -407,10 +413,12 @@ export const withFileData = (WrappedComponent) => {
   };
 ```
 
+---
 ### Blocks are extensible
+<!-- _class: lead invert -->
 
 - volto-block-style: the power of composition
-![volto-block-style](./static/block-style.png)
+![bg right:50% 100% volto-block-style](./static/block-style.png)
 
 
 ---
