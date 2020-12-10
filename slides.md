@@ -300,6 +300,14 @@ schema.properties.column.choices = csv_fields.map((n) => [n, n]);
 ![bg right:30% 100% flat-list-widget](./static/object-by-type-widget.png)
 
 ---
+### Everything is a widget
+
+Widgets should follow the widget protocol
+
+- `onChange(id, value)`
+- don't mix block props if possible
+
+---
 ### Compose behaviors
 
 - Smaller components
